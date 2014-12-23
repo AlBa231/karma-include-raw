@@ -1,6 +1,6 @@
 {
   "name": "karma-reference-chutzpah",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chutzpah reference handler.",
   "main": "index.js",
   "repository": {
@@ -13,6 +13,6 @@
   "author": "Ivan Bondarenko <bondarenko.ivan.v@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "karma": "~0.9.0"
+    "karma": ">=0.9.0"
   }
 }
