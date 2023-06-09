@@ -2,7 +2,7 @@ var reference = function (config, fileList) {
   var path = require('path'),
   fs = require('fs'),
   glob = require('glob'),
-  pattern = /\/\/\/\s*<reference path=["'](.*?)['"]/g,
+  pattern = /\/\/\/\s*<include path=["'](.*?)['"]/g,
   includedFiles = [],
   reloadList = [],
   files = config.files;
@@ -44,5 +44,5 @@ var reference = function (config, fileList) {
 reference.$inject = ['config', 'fileList'];
 
 module.exports = {
-  'framework:reference-chutzpah': ['factory', reference]
+  'framework:include-rawjs': ['factory', reference]
 };
