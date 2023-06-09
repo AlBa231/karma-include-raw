@@ -1,16 +1,16 @@
 {
-  "name": "karma-reference-chutzpah",
-  "version": "0.0.3",
-  "description": "Chutzpah reference handler.",
+  "name": "karma-include-jsraw",
+  "version": "0.0.1",
+  "description": "Karma Include RAW JS file preprocessor plugin.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/imapi/karma-reference-chutzpah.git"
+    "url": "git://github.com/AlBa231/karma-include-raw.git"
   },
   "keywords": [
-    "karma-plugin"
+    "karma-plugin", "karma-preprocessor"
   ],
-  "author": "Ivan Bondarenko <bondarenko.ivan.v@gmail.com>",
+  "author": "Oleksandr Barabanov <aldroid231@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "karma": ">=0.9.0"
