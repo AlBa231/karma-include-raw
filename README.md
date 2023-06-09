@@ -16,10 +16,10 @@ Add as a plugin to karma config.
 module.exports = 
 //...
 basePath: 'basePath', //this path is used for locate included scripts
-frameworks: ['include-rawjs', 'jasmine'...],
+frameworks: ['include-jsraw', 'jasmine'...],
 //...
 plugins: [
-require('include-rawjs')
+require('karma-include-jsraw')
 //... other plugins
 ]
 ```

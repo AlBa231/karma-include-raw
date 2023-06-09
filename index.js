@@ -44,5 +44,5 @@ var reference = function (config, fileList) {
 reference.$inject = ['config', 'fileList'];
 
 module.exports = {
-  'framework:include-rawjs': ['factory', reference]
+  'framework:include-jsraw': ['factory', reference]
 };
