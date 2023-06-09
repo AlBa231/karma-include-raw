@@ -1,6 +1,6 @@
 {
   "name": "karma-include-jsraw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Karma Include RAW JS file preprocessor plugin.",
   "main": "index.js",
   "repository": {
