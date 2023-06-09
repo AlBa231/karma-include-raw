@@ -13,15 +13,17 @@ npm install karma-include-jsraw --save-dev
 Add as a plugin to karma config.
 
 ```js
-module.exports = 
-//...
-basePath: 'basePath', //this path is used for locate included scripts
-frameworks: ['include-jsraw', 'jasmine'...],
-//...
-plugins: [
-require('karma-include-jsraw')
-//... other plugins
-]
+{
+  module.exports = 
+  //...
+  basePath: 'basePath', //this path is used for locate included scripts
+  frameworks: ['include-rawjs', 'jasmine'...],
+  //...
+  plugins: [
+    require('include-rawjs')
+    //... other plugins
+  ]
+}
 ```
 
 ## Usage
