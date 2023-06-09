@@ -17,10 +17,10 @@ Add as a plugin to karma config.
   module.exports = 
   //...
   basePath: 'basePath', //this path is used for locate included scripts
-  frameworks: ['include-rawjs', 'jasmine'...],
+  frameworks: ['include-jsraw', 'jasmine'...],
   //...
   plugins: [
-    require('include-rawjs')
+    require('include-jsraw')
     //... other plugins
   ]
 }
@@ -33,3 +33,4 @@ Add
 /// <include path="path_to_file.js" />
 ```
 Path is relative to karma *basePath*.
+
